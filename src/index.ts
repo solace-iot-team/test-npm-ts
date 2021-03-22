@@ -10,8 +10,8 @@ export class SendMessage {
     constructor(message: Message) {
         this.message = message;
     }
-    sendMessage = () => {
-        console.log(`sending message: ${JSON.stringify(this.message, null, 2)}`);
+    getMessage2Send = (): string => {
+        return(`message: ${JSON.stringify(this.message, null, 2)}`);
     }
 
 }
