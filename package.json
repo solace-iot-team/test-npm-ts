@@ -17,5 +17,9 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.2.3"
+  },
+  "np": {
+    "yarn": false,
+    "contents": "dist"
   }
 }
