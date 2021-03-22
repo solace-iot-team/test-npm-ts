@@ -11,7 +11,7 @@ export class SendMessage {
         this.message = message;
     }
     getMessage2Send = (): string => {
-        return(`message: ${JSON.stringify(this.message, null, 2)}`);
+        return(`message 2 send: ${JSON.stringify(this.message, null, 2)}`);
     }
 
 }
